@@ -95,7 +95,7 @@ const SIZES = ["XS", "S", "M", "L", "XL", "XXL"];
 function renderHeader(el) {
   el.innerHTML = `
     <div class="header-inner">
-      <a class="brand" href="index.html">ThighSupply<span class="dot">.</span></a>
+      <a class="brand" href="index.html">ThighSupply<span class="dot" aria-hidden="true"></span></a>
       <nav class="nav">
         <a href="shop.html">Shop</a>
         <a href="about.html">Mission</a>
