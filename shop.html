@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — ThighSupply</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" data-include="header"></header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>The collection</h1>
+      <p>Six cuts. One inseam range. Built for porches, pavement, and protests.</p>
+    </section>
+
+    <div class="shop-layout">
+      <aside class="filters">
+        <h3>Filter</h3>
+        <fieldset>
+          <legend>Style</legend>
+          <label><input type="checkbox" data-filter="style" value="everyday" /> Everyday</label>
+          <label><input type="checkbox" data-filter="style" value="trail" /> Trail</label>
+          <label><input type="checkbox" data-filter="style" value="swim" /> Swim</label>
+        </fieldset>
+        <fieldset>
+          <legend>Material</legend>
+          <label><input type="checkbox" data-filter="material" value="hemp" /> Hemp blend</label>
+          <label><input type="checkbox" data-filter="material" value="organic-cotton" /> Organic cotton</label>
+          <label><input type="checkbox" data-filter="material" value="recycled" /> Recycled nylon</label>
+        </fieldset>
+        <button class="btn btn-ghost btn-small" id="clear-filters">Clear filters</button>
+      </aside>
+
+      <section class="shop-grid">
+        <div class="product-grid" id="shop-grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer" data-include="footer"></footer>
+  <script src="script.js"></script>
+</body>
+</html>
